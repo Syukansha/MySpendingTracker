@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sixth"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/updateExpense"
+            android:layout_width="148dp"
+            android:layout_height="47dp"
+            android:text="Update"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.862" />
+
+        <Button
+            android:id="@+id/deleteExpense"
+            android:layout_width="148dp"
+            android:layout_height="47dp"
+            android:text="Delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.862" />
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="332dp"
+            android:layout_height="284dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="116dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+
+                    android:text="Date :"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/date2"
+                    android:layout_width="116dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/pick_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pick Date"
+                    tools:layout_editor_absoluteX="74dp"
+                    tools:layout_editor_absoluteY="623dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+
+                    android:text="Category :"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:textStyle="italic"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="524dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+
+                    android:text="Category :"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="116dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:text="Amount :"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editAmount2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="542dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+
+                    android:text="Amount :"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:visibility="invisible" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+
+                    android:text="Note :"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="64dp"
+                    tools:layout_editor_absoluteY="542dp">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+
+                    android:text="Amount :"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    android:visibility="invisible" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPENSE DETAIL"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.115" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

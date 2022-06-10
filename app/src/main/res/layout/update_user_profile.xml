@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back3"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE PROFILE"
+        android:background="@drawable/button_bg"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <Button
+        android:id="@+id/updateProfileButton"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:background="#FF6200EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <TableLayout
+        android:layout_width="365dp"
+        android:layout_height="232dp"
+        android:padding="15dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+
+                android:text="Email"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editProfileEmail"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="542dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+
+                android:text="Budget"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editProfileBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="542dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+
+                android:text="Password"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editProfilePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="542dp" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

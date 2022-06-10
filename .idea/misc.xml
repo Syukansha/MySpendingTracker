@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/add.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/button_bg.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/edittext_bg.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_account_foreground.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_catg_foreground.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_home_foreground.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_income_background.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_income_foreground.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_logoSpend_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/ic_transaction_foreground.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/listview.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/drawable/round.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/activity_splash.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/activity_update_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/add_new_category.xml" value="0.1" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/category_sort.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/categorylist.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/content_update_user_profile.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_fifth.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_first2.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_fourth.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_second2.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_sixth.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_third.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/fragment_update_profile.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/listview.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/login.xml" value="0.17" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/register.xml" value="0.18" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/sorted_category.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/testing.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/testing2.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/update_expense.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/update_user.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/layout/update_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2887179487179487" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/mipmap-anydpi-v26/ic_income.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/mipmap-anydpi-v26/ic_income_round.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/mipmap-anydpi-v26/ic_logoSpend.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/syukr/AndroidStudioProjects/MySpendingTracker/app/src/main/res/mipmap-anydpi-v26/ic_spending.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/syukr/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.14356884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

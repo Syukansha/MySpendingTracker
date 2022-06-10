@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back3"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="346dp"
+        android:layout_height="76dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+
+                android:text="Category name: "
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/newCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="542dp">
+
+            </EditText>
+
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/addCategory"
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:background="#FF6200EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spendingFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:foregroundTint="#519854"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="326dp"
+            android:layout_height="238dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.575">
+
+            <TableRow
+                android:layout_width="227dp"
+                android:layout_height="159dp"
+                android:background="#c3ccdb">
+
+                <TextView
+                    android:layout_width="34dp"
+                    android:layout_height="81dp"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="Budget"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/outBudget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="81dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="RM "
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:text="Expense"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/outExpense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="81dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="RM"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c3ccdb">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:text="Balance"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="81dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="RM"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="SPENDING"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.092" />
+
+        <Button
+            android:id="@+id/btnExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            android:drawableLeft="@drawable/add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.835"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.859" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
